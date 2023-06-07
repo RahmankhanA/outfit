@@ -41,6 +41,8 @@ class TestOutFit extends GetView<HomeController> {
                               controller.selectedImages[index].isSelected=false;
                               controller.selectedImages.removeAt(index);
                               controller.update();
+
+                              
                             },
                             child: Padding(
                               padding: const EdgeInsets.all(10.0),
